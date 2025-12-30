@@ -1,0 +1,63 @@
+A
+Baseware (archiwizacja) => NDCS – grupa AD OWH
+Baseware (fakturowanie) => GIPS + WTS Desktop Primus na Scania Service + Dial-in/OTP (Select Type: OTP Only)
+BIBAT => MARKET SYSTEMS L3
+C
+COW => Jola
+CSTT => ServiceNow CSTT
+CTM => Artur
+Conversion => Iga: conversion_(numer warsztatu) + Vera_users + rola conversion owned/independent dealer role
+D
+DBeaver Hive => wsparcie: grupa Teams “Problem with DBeaver connection”
+Digital Dealer => dostęp nadaje przełożony + Golisz; wsparcie: Pavel
+Digital-tacho.eu => mamy opiekuna; kontakt zna Piotr Fronczak
+Dział windykacji => Konrad Matulka
+F
+Fain/Rain => instrukcja „Fain/Rain”
+FRAS (mail) => Marcin Jakubowski
+H
+Haldex => folder „Naczepy przyczepy” na POL.ISIT
+I
+IHS => Szwecja
+iScala => Artur Jackowski / Marcin Frączkiewicz
+K
+KARO => Marta Strupińska
+Knorr => folder „Naczepy przyczepy” na POL.ISIT
+L
+LEO => Krzysztof Zwolan
+Logiweb => Arek Brzemiński
+M
+Marketing Suite => ServiceNow ver 3.8.0
+MJM Brokers => mail na Scania@mjmbrokers.pl (imię i nazwisko, e-mail, rola)
+MPP => iga\Powroziewicz
+Multi / WIO => dostęp nadaje przełożony + Golisz; wsparcie: Pavel
+MultiWEB => Iga
+MyCompass => Justyna Shimanda (konto XDS)
+MyScania => Maria Woźniak
+MySuccess => Klaudia Kwiatkowska
+P
+Paragony => instrukcja „Paragon”
+Power BI / PowerBI => Arturito
+R
+Reflex (administracja) => Monika Bladowska
+S
+Sales Desktop => ścieżka w AD Remote Service, profil Sales, „V” w Employee Data
+Sales Portal => Jola
+SMA => ServiceNow – SMA access
+SOS (Szwecja) / Scania On Scene => Scania On Scene
+SPISA => MARKET SYSTEMS L3
+SPM => Jola
+SOSP / Vabis / SOSP dostęp => instrukcja „SOSP nadawanie dostępu.docx”
+SWS => sws.scania.com
+T
+TachoScania => digi.scania.com
+TBB => konto Iga + dostęp TBB independent
+Trucks Body Builder / Truck Body Builder => Iga + utworzenie konta + rola Truck Body Builder
+V
+VA-Accounting => grupa AD: ctx_accounting
+W
+WEM / WTS Desktop Primus => instrukcja „WEM WTS Desktop Primus”
+Wabco => folder „Naczepy przyczepy” na POL.ISIT
+Z
+Zmiana hasła do polskiej domeny => ScaniaSelfService lub aka.ms/sspr
+Blokada konta w polskiej domenie => zalogować się w ScaniaSelfService
