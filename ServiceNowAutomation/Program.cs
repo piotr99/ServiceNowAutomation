@@ -1,7 +1,8 @@
-﻿using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.AI;
+using OllamaSharp;
 using ServiceNowAutomation.Helpers;
 using ServiceNowAutomation.Infrastructure;
 using ServiceNowAutomation.Services;
@@ -37,4 +38,3 @@ var aiResponses = await ai.GetAssignmentGroupsAsync(incidents);
 
 var outPath = OutputPathBuilder.Build(baseDir, "response");
 exporter.Save(aiResponses, outPath);
-
