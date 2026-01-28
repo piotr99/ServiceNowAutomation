@@ -1,16 +1,22 @@
 ﻿using ClosedXML.Excel;
+<<<<<<< HEAD
 using Microsoft.Extensions.Logging;
+=======
+>>>>>>> d41ddc2f0f4c215655d9cc0f56767631cdecd60e
 using ServiceNowAutomation.Models;
 
 namespace ServiceNowAutomation.Services;
 
 public class ResponseExcelExporter
 {
+<<<<<<< HEAD
     private readonly ILogger<AiService> _logger;
     public ResponseExcelExporter(ILogger<AiService> logger)
     {
         _logger = logger;
     }
+=======
+>>>>>>> d41ddc2f0f4c215655d9cc0f56767631cdecd60e
     public void Save(List<AiResponse> responses, string path)
     {
         using var wb = new XLWorkbook();
@@ -30,7 +36,10 @@ public class ResponseExcelExporter
 
         ws.Columns().AdjustToContents();
         wb.SaveAs(path);
+<<<<<<< HEAD
         _logger.LogInformation("Saved responses {Count} to {path}", 
             responses.Count, path);
+=======
+>>>>>>> d41ddc2f0f4c215655d9cc0f56767631cdecd60e
     }
 }

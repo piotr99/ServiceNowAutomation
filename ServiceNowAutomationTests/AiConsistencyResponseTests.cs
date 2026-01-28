@@ -38,7 +38,11 @@ namespace ServiceNowAutomationTests
                     ShortDescription = "The office network is down and no one can connect to the internet."
                 }
             };
+<<<<<<< HEAD
             //Sprawdza czy AI konsekwentnie przypisuje tę samą grupę przy wielokrotnych zapytaniach
+=======
+
+>>>>>>> d41ddc2f0f4c215655d9cc0f56767631cdecd60e
             var aiResponses = new List<AiResponse>();
 
             for (int i = 0; i < 5; i++)

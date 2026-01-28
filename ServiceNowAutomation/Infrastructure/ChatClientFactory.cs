@@ -17,9 +17,14 @@ public static class ChatClientFactory
 
             return client
                 .AsBuilder()
+<<<<<<< HEAD
                 .Build(sp);
             //Może korzytsać z funkcji
             // .UseFunctionInvocation()
+=======
+                // .UseFunctionInvocation()
+                .Build(sp);
+>>>>>>> d41ddc2f0f4c215655d9cc0f56767631cdecd60e
         });
 
         return services;
