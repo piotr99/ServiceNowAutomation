@@ -1,13 +1,12 @@
-﻿using Microsoft.Extensions.AI;
+﻿using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using OllamaSharp;
+using Microsoft.Extensions.AI;
 using ServiceNowAutomation.Helpers;
 using ServiceNowAutomation.Infrastructure;
-using Microsoft.Extensions.Logging;
 using ServiceNowAutomation.Services;
 
-var builder = Host.CreateApplicationBuilder();
+var builder = Host.CreateApplicationBuilder(args);
 
 // Logging
 builder.Logging.ClearProviders();
@@ -24,7 +23,6 @@ builder.Services.AddSingleton<IncidentExcelImporter>();
 builder.Services.AddSingleton<ResponseExcelExporter>();
 builder.Services.AddSingleton<AiService>();
 
-
 using var app = builder.Build();
 
 var importer = app.Services.GetRequiredService<IncidentExcelImporter>();
@@ -35,8 +33,8 @@ var inputPath = @"C:\Users\PPI3XY\source\repos\ServiceNowAutomation\ServiceNowAu
 var baseDir = @"C:\Users\PPI3XY\source\repos\ServiceNowAutomation\ServiceNowAutomation";
 
 var incidents = importer.Import(inputPath);
-
 var aiResponses = await ai.GetAssignmentGroupsAsync(incidents);
 
 var outPath = OutputPathBuilder.Build(baseDir, "response");
 exporter.Save(aiResponses, outPath);
+
