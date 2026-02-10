@@ -18,9 +18,9 @@ builder.Services.AddOllamaChatClient(
 );
 ```
 ## Zasada działania
--Impotrujemy z ServiceNow zgłosznia w formacie: incydent number, short description
--Wrzucamy eksportowane incydenty w pliku o nazwie incident.xlsx w ścieżce podanej w Program.cs linia: var inputPath = @"C:\Users\PPI3XY\source\repos\ServiceNowAutomation\ServiceNowAutomation\incident.xlsx";
--Uruchamiamy program i czekamy na zakończenie działania AI.
+- Impotrujemy z ServiceNow zgłosznia w formacie: incydent number, short description
+- Wrzucamy eksportowane incydenty w pliku o nazwie incident.xlsx w ścieżce podanej w Program.cs linia: var inputPath = @"C:\Users\PPI3XY\source\repos\ServiceNowAutomation\ServiceNowAutomation\incident.xlsx";
+- Uruchamiamy program i czekamy na zakończenie działania AI.
 
 
 # Test: `AiServiceTests` (NUnit) – walidacja sugestii grupy przypisania z użyciem Ollama
