@@ -5,7 +5,7 @@ Prosty projekt automatyzacji pracy z ServiceNow z wykorzystaniem LLM (Ollama) do
 ## Wymagania
 - .NET 10
 - Uruchomiona Ollama lokalnie: `http://localhost:11434`
-- Uruchomiony model (przykład — docelowo należy wybrać model wytrenowany):
+- Uruchomiony model (przykład - docelowo należy wybrać model wytrenowany):
   - `gpt-oss:120b-cloud`
 
 ## Konfiguracja
