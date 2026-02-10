@@ -23,7 +23,7 @@ builder.Services.AddOllamaChatClient(
 - Uruchamiamy program i czekamy na zakończenie działania AI.
 
 
-# Test: `AiServiceTests` (NUnit) – walidacja sugestii grupy przypisania z użyciem Ollama
+# Test: `AiServiceTests` (NUnit) - walidacja sugestii grupy przypisania z użyciem Ollama
 
 Ten test sprawdza, czy usługa `AiService` potrafi zasugerować poprawną **grupę przypisania (assignment group)** dla incydentu związanego z problemem sieciowym, korzystając z lokalnie uruchomionego LLM przez **Ollama**.
 
